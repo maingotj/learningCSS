@@ -2,17 +2,75 @@ header{
     text-align: center;
 }
 
+body{
+    font-size: 1.25rem;
+    font-family: sans-serif;
+    line-height: 1.6;
+}
+
+section{
+    margin-block: 75px;
+}
+
 h1{
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
-    color: #4676A9;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif ;
+    color: black;
     text-align: center;
+    font-size: 5rem;
+    line-height: 1.1;
 }
 
 h2{
     color: #cb731c;
+    font-size: 2.25rem;
+}
+
+h3{
+    font-size: 1.6rem;
 }
 
 footer{
-    background-color: #22466c;
+    text-align: center;
+    
+}
+
+a{
+    color: rgb(20, 156, 20);
+}
+
+a:hover, a:focus-visible{
+    color: purple;
+}
+
+a:active{
+    color: black;
+}
+
+.teal-text{
+    color:#4676A9
+}
+
+.teal-bg{
+    background-color: #087a98;
+    border: 5px solid #0b4a5a;
+    padding: 24px;
+    text-align: center;
     color: white;
+
+}
+
+.teal-bg strong{
+    color: yellow;
+}
+
+.climber-bg{
+    background-image: url("../version_2/images/simple-steps.jpg");
+    color: white;
+    background-color: #087a98;
+    border: 5px solid #0b4a5a;
+    padding: 10px;
+
+    background-repeat: never;
+    background-position: center;
+    background-size:cover;
 }
